@@ -1,5 +1,5 @@
 import axios from "axios"
-import { User } from "./userTypes"
+import { User } from "./usersTypes"
 
 const API_URL = "https://randomuser.me/api/?&nat=gb&results=30";
 
