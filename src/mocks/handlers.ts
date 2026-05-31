@@ -25,7 +25,7 @@ export const handlers =[
         return res(
             ctx.status(200),
             ctx.json({
-                result:mockResult
+                results:mockResult
             })
         )
     })
