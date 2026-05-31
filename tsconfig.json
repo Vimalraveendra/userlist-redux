@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "types": ["jest","node"], 
-   "target": "ES6",
+    "types": ["jest","node"],
+    "target": "ES6",
     "lib": ["DOM", "ESNext"],
     "jsx": "react-jsx",
 
@@ -13,6 +13,7 @@
 
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "isolatedModules": true                             /* Skip type checking all .d.ts files. */
-  }
+    "isolatedModules": true
+  },
+   "include": ["src", "src/setupTests.ts"]
 }
