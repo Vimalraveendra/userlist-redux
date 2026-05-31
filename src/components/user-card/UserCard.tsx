@@ -1,4 +1,3 @@
-import React from "react";
 import { User } from "../../features/users/redux/usersTypes";
 import styles from "./UserCard.module.css"
 
