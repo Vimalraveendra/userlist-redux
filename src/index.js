@@ -5,22 +5,13 @@ import App from "./containers/App";
 import * as serviceWorker from "./serviceWorker";
 import "tachyons";
 import { Provider } from "react-redux";
-import { createStore, applyMiddleware } from "redux";
-import { searchPersons } from "./Reducers/Reducers";
-import logger from "redux-logger";
-import thunk from "redux-thunk";
-
-const middlewares = [thunk];
-if (process.env.NODE_ENV === "development") {
-  middlewares.push(logger);
-}
-const store = createStore(searchPersons, applyMiddleware(...middlewares));
+import { store } from "./store/store";
 
 ReactDOM.render(
   <Provider store={store}>
     <App />
   </Provider>,
-  document.getElementById("root")
+  document.getElementById("root"),
 );
 
 // If you want your app to work offline and load faster, you can change

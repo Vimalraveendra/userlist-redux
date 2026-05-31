@@ -8,18 +8,10 @@
   src: local("Lintsec Regular"), url("Lintsec.woff") format("woff");
 }
 
-h1 {
+.titleH1{
   font-family: "Lintsec Regular";
   font-weight: 200;
   color: #6a266f;
+  text-align: center;
 }
-h2 {
-  font-size: 20px;
-}
-h3 {
-  color: blue;
-}
-P {
-  font-family: "Kaushan Script", cursive;
-  color: #a8383b;
-}
+
